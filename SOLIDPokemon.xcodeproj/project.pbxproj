@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
-		31E6B83C2F0E13AF0051EEBB /* CopyFiles */ = {
+		31A4109D2F0EAF1C0027C834 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -19,31 +19,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		312A0D642F0E96D90085AB23 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		312A0D652F0E96F50085AB23 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		31E6B83E2F0E13AF0051EEBB /* BootlegPokemon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BootlegPokemon; sourceTree = BUILT_PRODUCTS_DIR; };
+		31A4109F2F0EAF1C0027C834 /* SOLIDPokemon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SOLIDPokemon; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		31E6B8402F0E13AF0051EEBB /* BootlegPokemon */ = {
+		31A410A12F0EAF1C0027C834 /* SOLIDPokemon */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BootlegPokemon;
-			sourceTree = "<group>";
-		};
-		31E6B8482F0E13B70051EEBB /* PokemonTypes */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PokemonTypes;
-			sourceTree = "<group>";
-		};
-		31E6B8492F0E13C10051EEBB /* Breeder */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Breeder;
+			path = SOLIDPokemon;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		31E6B83B2F0E13AF0051EEBB /* Frameworks */ = {
+		31A4109C2F0EAF1C0027C834 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -53,22 +41,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		31E6B8352F0E13AF0051EEBB = {
+		31A410962F0EAF1C0027C834 = {
 			isa = PBXGroup;
 			children = (
-				312A0D652F0E96F50085AB23 /* .gitignore */,
-				312A0D642F0E96D90085AB23 /* README.md */,
-				31E6B8492F0E13C10051EEBB /* Breeder */,
-				31E6B8482F0E13B70051EEBB /* PokemonTypes */,
-				31E6B8402F0E13AF0051EEBB /* BootlegPokemon */,
-				31E6B83F2F0E13AF0051EEBB /* Products */,
+				31A410A12F0EAF1C0027C834 /* SOLIDPokemon */,
+				31A410A02F0EAF1C0027C834 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		31E6B83F2F0E13AF0051EEBB /* Products */ = {
+		31A410A02F0EAF1C0027C834 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				31E6B83E2F0E13AF0051EEBB /* BootlegPokemon */,
+				31A4109F2F0EAF1C0027C834 /* SOLIDPokemon */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,66 +60,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		31E6B83D2F0E13AF0051EEBB /* BootlegPokemon */ = {
+		31A4109E2F0EAF1C0027C834 /* SOLIDPokemon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31E6B8452F0E13AF0051EEBB /* Build configuration list for PBXNativeTarget "BootlegPokemon" */;
+			buildConfigurationList = 31A410A62F0EAF1C0027C834 /* Build configuration list for PBXNativeTarget "SOLIDPokemon" */;
 			buildPhases = (
-				31E6B83A2F0E13AF0051EEBB /* Sources */,
-				31E6B83B2F0E13AF0051EEBB /* Frameworks */,
-				31E6B83C2F0E13AF0051EEBB /* CopyFiles */,
+				31A4109B2F0EAF1C0027C834 /* Sources */,
+				31A4109C2F0EAF1C0027C834 /* Frameworks */,
+				31A4109D2F0EAF1C0027C834 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				31E6B8402F0E13AF0051EEBB /* BootlegPokemon */,
-				31E6B8482F0E13B70051EEBB /* PokemonTypes */,
-				31E6B8492F0E13C10051EEBB /* Breeder */,
+				31A410A12F0EAF1C0027C834 /* SOLIDPokemon */,
 			);
-			name = BootlegPokemon;
+			name = SOLIDPokemon;
 			packageProductDependencies = (
 			);
-			productName = BootlegPokemon;
-			productReference = 31E6B83E2F0E13AF0051EEBB /* BootlegPokemon */;
+			productName = SOLIDPokemon;
+			productReference = 31A4109F2F0EAF1C0027C834 /* SOLIDPokemon */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		31E6B8362F0E13AF0051EEBB /* Project object */ = {
+		31A410972F0EAF1C0027C834 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2610;
 				LastUpgradeCheck = 2610;
 				TargetAttributes = {
-					31E6B83D2F0E13AF0051EEBB = {
+					31A4109E2F0EAF1C0027C834 = {
 						CreatedOnToolsVersion = 26.1.1;
 					};
 				};
 			};
-			buildConfigurationList = 31E6B8392F0E13AF0051EEBB /* Build configuration list for PBXProject "BootlegPokemon" */;
+			buildConfigurationList = 31A4109A2F0EAF1C0027C834 /* Build configuration list for PBXProject "SOLIDPokemon" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 31E6B8352F0E13AF0051EEBB;
+			mainGroup = 31A410962F0EAF1C0027C834;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 31E6B83F2F0E13AF0051EEBB /* Products */;
+			productRefGroup = 31A410A02F0EAF1C0027C834 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				31E6B83D2F0E13AF0051EEBB /* BootlegPokemon */,
+				31A4109E2F0EAF1C0027C834 /* SOLIDPokemon */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		31E6B83A2F0E13AF0051EEBB /* Sources */ = {
+		31A4109B2F0EAF1C0027C834 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -145,7 +127,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		31E6B8432F0E13AF0051EEBB /* Debug */ = {
+		31A410A42F0EAF1C0027C834 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,7 +191,7 @@
 			};
 			name = Debug;
 		};
-		31E6B8442F0E13AF0051EEBB /* Release */ = {
+		31A410A52F0EAF1C0027C834 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -265,12 +247,13 @@
 			};
 			name = Release;
 		};
-		31E6B8462F0E13AF0051EEBB /* Debug */ = {
+		31A410A72F0EAF1C0027C834 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32XNCXFRAJ;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
@@ -278,12 +261,13 @@
 			};
 			name = Debug;
 		};
-		31E6B8472F0E13AF0051EEBB /* Release */ = {
+		31A410A82F0EAF1C0027C834 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32XNCXFRAJ;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
@@ -294,25 +278,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31E6B8392F0E13AF0051EEBB /* Build configuration list for PBXProject "BootlegPokemon" */ = {
+		31A4109A2F0EAF1C0027C834 /* Build configuration list for PBXProject "SOLIDPokemon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31E6B8432F0E13AF0051EEBB /* Debug */,
-				31E6B8442F0E13AF0051EEBB /* Release */,
+				31A410A42F0EAF1C0027C834 /* Debug */,
+				31A410A52F0EAF1C0027C834 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31E6B8452F0E13AF0051EEBB /* Build configuration list for PBXNativeTarget "BootlegPokemon" */ = {
+		31A410A62F0EAF1C0027C834 /* Build configuration list for PBXNativeTarget "SOLIDPokemon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31E6B8462F0E13AF0051EEBB /* Debug */,
-				31E6B8472F0E13AF0051EEBB /* Release */,
+				31A410A72F0EAF1C0027C834 /* Debug */,
+				31A410A82F0EAF1C0027C834 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 31E6B8362F0E13AF0051EEBB /* Project object */;
+	rootObject = 31A410972F0EAF1C0027C834 /* Project object */;
 }

@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 // Factory mapping from type name to a creator closure that takes a level and returns a concrete Pokemon
 let mapping: [String: (Int) -> any PokemonInterface] = [
     "Fire": { level in FirePokemon(xp: 0, level: level) },
