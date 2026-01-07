@@ -19,6 +19,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		312A0D642F0E96D90085AB23 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		312A0D652F0E96F50085AB23 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		31E6B83E2F0E13AF0051EEBB /* BootlegPokemon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BootlegPokemon; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -54,6 +56,8 @@
 		31E6B8352F0E13AF0051EEBB = {
 			isa = PBXGroup;
 			children = (
+				312A0D652F0E96F50085AB23 /* .gitignore */,
+				312A0D642F0E96D90085AB23 /* README.md */,
 				31E6B8492F0E13C10051EEBB /* Breeder */,
 				31E6B8482F0E13B70051EEBB /* PokemonTypes */,
 				31E6B8402F0E13AF0051EEBB /* BootlegPokemon */,
