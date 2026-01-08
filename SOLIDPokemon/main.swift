@@ -8,15 +8,7 @@
 import Foundation
 
 // Factory mapping from type name to a creator closure that takes a level and returns a concrete Pokemon
-let mapping: [String: (Int) -> any PokemonInterface] = [
-    "Fire": { level in FirePokemon(xp: 0, level: level) },
-    "Water": { level in WaterPokemon(xp: 0, level: level) },
-    "Psychic": { level in PsychicPokemon(xp: 0, level: level) },
-    "Fighting": { level in FightingPokemon(xp: 0, level: level) },
-    "Electric": { level in ElectricPokemon(xp: 0, level: level) },
-    "Ghost": { level in GhostPokemon(xp: 0, level: level) },
-    "Grass": { level in GrassPokemon(xp: 0, level: level) }
-]
+let pokemonFactory = PokemonFactory()
 
 func parseInput(_ text: String) -> [Breeder] {
     let lines = text.split(separator: "\n").map(String.init).filter { !$0.isEmpty }
@@ -30,8 +22,8 @@ func parseInput(_ text: String) -> [Breeder] {
             guard parts.count == 2 else { continue }
             let type = parts[0]
             let levelString = parts[1]
-            guard let level = Int(levelString), let factory = mapping[type] else { continue }
-            let mon = factory(level)
+            guard let level = Int(levelString) else { continue }
+            guard let mon: PokemonInterface = PokemonFactory.getInstance(for: type, level) else { continue }
             mons.append(mon)
         }
         breeders.append(Breeder(pokemon: mons))

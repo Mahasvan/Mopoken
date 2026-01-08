@@ -20,6 +20,8 @@ protocol PokemonInterface {
     
     static var LEVEL_THRESHOLD: Int { get }
     static var BATTLE_XP: Int { get }
+    
+    init(xp: Int, level: Int);
 }
 
 extension PokemonInterface {
